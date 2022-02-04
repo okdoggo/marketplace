@@ -1,0 +1,162 @@
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box; 
+ }
+ body{
+    background-color: #CAD8DC;
+    font-family: 'Open Sans', sans-serif;
+ }
+ .register-form-container{
+    margin: auto;
+    max-width: 345px;
+    background: #FFFFFF;
+    border-radius: 6px;    
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 36px;
+    padding-bottom: 20px;
+    box-shadow: 3px 10px 6px rgba(0, 0, 0, 0.2);
+} 
+ .form-title{
+    color: #000000;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    margin-bottom: 20px;
+ }
+ .par{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #636363;
+    margin-left: 60px;
+    margin-bottom: 20px;
+ }
+ input{
+    height: 41px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 27px;
+    border: 1px solid #C4C4C4;
+    border-radius: 6px;
+    padding-left: 15px;
+    color: #000000;
+ }
+ .form-field{
+    color: #C4C4C4;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 10px;
+
+ }
+ .container{
+    float: left;
+    width: 126px;
+    height: 41px;
+    line-height: 27px;
+    margin: 10px;
+ }
+ .button{
+    font-weight: normal;
+    font-size: 15px;
+    display: block;
+    height: 40px;
+    background: #6F72C1;
+    border-radius: 6px;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+ 
+ .link-container{
+    color: #000000;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-left: 58px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .main-navigation {
+	width: 1440px;
+}
+.logo {
+width: 218px;
+height: 50px;
+left: 16px;
+top: 20px;
+font-family: Open Sans;
+font-weight: bold;
+font-size: 36px;
+line-height: 50px;
+color: #FFFFFF;
+}
+.user {
+
+    width: 300px;
+    height: 40px;
+    top: 28px;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding-right: 226px;
+}
+
+
+.main-navigation ul {
+    float: right;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    width: 300px;
+}
+
+.main-navigation li {
+	display: inline-block;
+
+	font-size: 16px;
+	line-height: 20px;
+	vertical-align: top;
+}
+
+.main-navigation a {
+	display: block;
+	padding: 25px 20px;
+
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+
+.menu {
+    position: absolute;
+    width: 266px;
+    height: 935px;
+    left: 0px;
+    top: 90px;
+    
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    }

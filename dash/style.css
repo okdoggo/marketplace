@@ -1,0 +1,254 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #E5E5E5;
+}
+.wrapper{
+    max-width:  1440px;
+    margin: 0 auto;
+    height: 90px;    
+    background-color: #6F72C1;  
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 218px;
+    height: 50px;
+    margin-left: 16px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.nav{
+    display: flex;
+    position: absolute;
+    right: 25px;
+    list-style-type: none;
+    margin-left: auto;
+    margin-top: -48px;
+}
+.nav-link{
+    font-weight: normal;
+    font-size: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.userpic{
+    padding: 0px 20px;
+}
+.bell{
+    padding: 0px 10px;
+}
+.help{
+    padding: 0px 10px;
+}
+.menu{
+    padding-left: 0;
+    margin-top: 0px;
+    width: 266px;
+    height: 935px;
+    background-color: #FFFFFF;
+}
+.side-nav{
+    list-style-type: none;
+    padding-left: 16px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 45px;
+}
+.side-nav a{
+    text-decoration: none;
+    color: #6D6D6D;
+}
+.left-cards {
+    justify-content: space-between ;
+    margin-left: 275px;
+}
+.chart-1 {
+    position: absolute;
+    width: 608px;
+    height: 468px;
+    top: 105px; 
+    background: #FFFFFF;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+
+}
+.chart-1-title {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.chart-2{
+    position: absolute;
+    width: 608px;
+    height: 415px;
+    top: 585px;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+}
+.chart-2-title {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.right-cards{
+    justify-content: space-between ;
+    margin-left: 890px;
+}
+.chart-3{
+    position: absolute;
+    width: 534px;
+    height: 270px;
+    top: 105px;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+}
+.chart-3-title{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.period{
+    font-weight: normal;
+    font-size: 18px;
+    color: #6D6D6D;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.status a{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: -20px;
+    color: #000000;
+}
+.status ul{
+    list-style-type: none;
+}
+.chart-4{
+    position: absolute;
+    width: 534px;
+    height: 270px;
+    top: 385px;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+}
+.chart-4-title{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.full-delivery{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #6D6D6D;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.stats-now{
+    width: 312px;
+    height: 74px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 87px;
+    color: #000000;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 35px;
+}
+.this-period{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #6D6D6D;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 0px;
+}
+.stats-past{
+    width: 98px;
+    height: 35px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #2BB628;
+    position: absolute;
+    bottom: 35px;
+    margin-left: 393px;
+}
+.past-period{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #6D6D6D;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 308px;
+    position: absolute;
+    bottom: 0px;
+}
+.chart-5{
+    position: absolute;
+    width: 534px;
+    height: 270px;
+    top: 665px;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+}
+.chart-5-title{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.description{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #6D6D6D;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.help-link{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #6F72C1;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 15px;
+}
